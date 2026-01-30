@@ -1,8 +1,8 @@
-# Aravinth's Portfolio Website
+# Narendra's Portfolio Website
 
-A modern, responsive portfolio website showcasing Aravinth's skills, projects, and professional experience in both Software Development Engineering and Data Science & Machine Learning.
+A modern, responsive portfolio website showcasing Narendra's skills, projects, and professional experience in both Software Development Engineering and Data Science & Machine Learning.
 
-🔗 [Visit My Portfolio](https://aravinthvr.github.io/portfolio/)
+🔗 [Visit My Portfolio](https://Narendra725.github.io/portfolio/)
 
 ---
 
@@ -20,12 +20,15 @@ A modern, responsive portfolio website showcasing Aravinth's skills, projects, a
 
 ## Technology Stack
 
-- HTML5
-- CSS3 (Flexbox, Grid, Custom Properties)
-- Vanilla JavaScript (ES6+)
-- Component-based Architecture
-- Font Awesome Icons
-- Google Fonts
+- SQL
+- Python 
+- Spark
+- Microsoft Fabric
+- Powre BI
+- GCP
+- Databricks
+- Oracle DB
+- HTML, CSS 
 - Formspree (for form handling)
 
 ---
@@ -127,8 +130,7 @@ portfolio/
 ├── assets/
 │   ├── favicon.svg
 │   ├── images/
-│   │   ├── Aravinth.jpg
-│   │   ├── Abaram_Award.jpg
+│   │   ├── Narendra.jpg
 │   │   ├── Outstanding_Contributor.jpeg
 │   │   ├── coursera-logo.svg
 │   │   └── scaler-logo.svg
@@ -137,9 +139,9 @@ portfolio/
 │   │   ├── predictive-model.svg
 │   │   └── ecg-classification.svg
 │   └── resumes/
-│       ├── Aravinth_Resume_SDE.pdf
-│       ├── Aravinth_Resume_DSML.pdf
-│       └── Aravinth_Resume.pdf
+│       ├── Narendra_Resume_Power BI.pdf
+│       ├── Narendra_Resume_DE.pdf
+│       └── Narendra_Resume.pdf
 ```
 
 ---
@@ -150,7 +152,7 @@ This website is designed to be hosted on GitHub Pages:
 
 1. Fork this repository
 2. Enable GitHub Pages in your repository settings
-3. The site will be available at `https://aravinthvr.github.io/portfolio`
+3. The site will be available at `https://Narendra725.github.io/portfolio`
 
 For local development:
 
@@ -181,7 +183,7 @@ The contact form uses Formspree to handle submissions. To configure it for your 
 
 This project is licensed under the Creative Commons Attribution 4.0 International License.
 
-You are free to use, modify, and share this work, but **must provide appropriate credit** to the original author: **Aravinthaprasath V.**
+You are free to use, modify, and share this work, but **must provide appropriate credit** to the original author: **Narendra Dasari.**
 
 ---
 
