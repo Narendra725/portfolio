@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert('Oops! There was a problem submitting your form. Please try again later.');
+                alert('Oops! There was a problem submitting your form. Please try again later :)');
             })
             .finally(() => {
                 if (submitBtn) submitBtn.disabled = false;
