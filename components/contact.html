@@ -68,16 +68,33 @@
                       action="https://docs.google.com/forms/d/e/1FAIpQLSf03sXhyYA2p-xHQ_oVBufETCaFj-E5inXOI938YtFctuHu2Q/formResponse"
                       method="POST"
                       target="hidden_iframe"
+                      onsubmit="handleSubmit()"
                     >
-                      <input name="entry.71801755" type="text" required> <!-- Name -->
-                      <input name="entry.1863212558" type="email" required> <!-- Email -->
-                      <input name="entry.864702531" type="text"> <!-- Subject -->
-                      <textarea name="entry.1450029385" required></textarea> <!-- Message -->
+                      <!-- Name -->
+                      <input type="text" name="entry.71801755" required>
+                    
+                      <!-- Email -->
+                      <input type="email" name="entry.1863212558" required>
+                    
+                      <!-- Subject -->
+                      <input type="text" name="entry.864702531">
+                    
+                      <!-- Message -->
+                      <textarea name="entry.1450029385" required></textarea>
                     
                       <button type="submit">Send Message</button>
                     </form>
                     
                     <iframe name="hidden_iframe" style="display:none;"></iframe>
+                    
+                    <script>
+                      function handleSubmit() {
+                        setTimeout(() => {
+                          alert("Thanks! Your message has been sent 🚀");
+                        }, 500);
+                      }
+                    </script>
+
             </div>
         </div>
     </div>
