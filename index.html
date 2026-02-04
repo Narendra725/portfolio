@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basics -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Narendra | Data Engineer & Power BI Developer</title>
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://Narendra725.github.io/portfolio/" />
+
+  <!-- SEO -->
+  <meta name="description"
+        content="Narendra's portfolio showcasing data engineering, data science, and power bi projects with real-world impact." />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="4G3VFUlvuOQmiS4-wWrKu2Yl8Q_Z_RLN-S21Qt_bqho" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Narendra | Data Engineer & Power BI Developer" />
+  <meta property="og:description"
+        content="Projects and experience in data engineering, power bi and data science." />
+  <meta property="og:image"
+        content="https://Narendra725.github.io/portfolio/assets/images/preview.png" />
+  <meta property="og:url"
+        content="https://Narendra725.github.io/portfolio/" />
+
+  <!-- Twitter
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Narendra | DE & Power BI" />
+  <meta name="twitter:description"
+        content="Software engineering, data science, and AI projects." />
+  <meta name="twitter:image"
+        content="https://Narendra725.github.io/portfolio/assets/images/preview.png" /> -->
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/linklogo.svg" type="image/svg+xml" />
+
+  <!-- Fonts
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" /> -->
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components/header.css" />
+  <link rel="stylesheet" href="css/components/hero.css" />
+  <link rel="stylesheet" href="css/components/about.css" />
+  <link rel="stylesheet" href="css/components/resume.css" />
+  <link rel="stylesheet" href="css/components/experience.css" />
+  <link rel="stylesheet" href="css/components/projects.css" />
+  <link rel="stylesheet" href="css/components/publications.css" />
+  <link rel="stylesheet" href="css/components/certifications.css" />
+  <link rel="stylesheet" href="css/components/education.css" />
+  <link rel="stylesheet" href="css/components/achievements.css" />
+  <link rel="stylesheet" href="css/components/skills.css" />
+  <link rel="stylesheet" href="css/components/contact.css" />
+  <link rel="stylesheet" href="css/components/footer.css" />
+  <link rel="stylesheet" href="css/components/modal.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1VDT5WB8R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z1VDT5WB8R');
+  </script>
+</head>
+
+<body class="light-theme">
+
+  <noscript>
+    <p style="text-align:center">
+      This site works best with JavaScript enabled.
+    </p>
+  </noscript>
+
+  <!-- Header -->
+  <header id="header"></header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- HERO (First Impression) -->
+    <section id="hero" aria-label="Introduction"></section>
+
+    <!-- About -->
+    <section id="about"></section>
+
+    <!-- Resume -->
+    <section id="resume"></section>
+
+    <!-- Experience -->
+    <section id="experience"></section>
+
+    <!-- Projects -->
+    <section id="projects"></section>
+
+    <!-- Publications -->
+    <section id="publications"></section>
+
+    <!-- Certifications -->
+    <section id="certifications"></section>
+
+    <!-- Education -->
+    <section id="education"></section>
+
+    <!-- Achievements -->
+    <section id="achievements"></section>
+
+    <!-- Skills -->
+    <section id="skills"></section>
+
+    <!-- Contact -->
+    <section id="contact"></section>
+
+  </main>
+
+  <!-- Modal -->
+  <div id="modalContainer"></div>
+
+  <!-- Footer -->
+  <footer id="footer"></footer>
+
+  <!-- JS -->
+  <script src="js/template-engine.js" defer></script>
+  <script src="js/main.js" defer></script>
+
+  <script defer>
+    document.addEventListener('DOMContentLoaded', async () => {
+      await Promise.all([
+        templateEngine.insertComponent('#header', 'components/header.html'),
+        templateEngine.insertComponent('#hero', 'components/hero.html'),
+        templateEngine.insertComponent('#about', 'components/about.html'),
+        templateEngine.insertComponent('#resume', 'components/resume.html'),
+        templateEngine.insertComponent('#experience', 'components/experience.html'),
+        templateEngine.insertComponent('#projects', 'components/projects.html'),
+        templateEngine.insertComponent('#publications', 'components/publications.html'),
+        templateEngine.insertComponent('#certifications', 'components/certifications.html'),
+        templateEngine.insertComponent('#education', 'components/education.html'),
+        templateEngine.insertComponent('#achievements', 'components/achievements.html'),
+        templateEngine.insertComponent('#skills', 'components/skills.html'),
+        templateEngine.insertComponent('#contact', 'components/contact.html'),
+        templateEngine.insertComponent('#footer', 'components/footer.html'),
+        templateEngine.insertComponent('#modalContainer', 'components/modal.html')
+      ]);
+
+      window.initSite?.();
+    });
+  </script>
+
+</body>
+</html>
